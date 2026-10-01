@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PREGUNTAS TEORICAS</h1>
+    <h2>1) Formas de conectar HTML con JavaScript</h2>
+        <ul>
+            <li>
+                <p><strong>JavaScript interno:</strong> el código se escribe dentro de la etiqueta script en el mismo archivo HTML.</p>
+                    <pre>&lt;script&gt;console.log("Hola desde JavaScript interno");&lt;/script&gt;</pre>
+            </li>
+            <li>
+                <p><strong>JavaScript externo:</strong> el código se escribe en un archivo .js y se enlaza con el atributo src.</p>
+                <pre>&lt;script src="script.js"&gt;&lt;/script&gt;</pre>
+            </li>
+        </ul>
+ 
+    <h3>2) Cómo ver resultados en la consola del navegador</h3>
+        <ol>
+            <li>Escribir en el código JavaScript una instrucción como console.log("Hola mundo");</li>
+            <li>Guardar los archivos index.html y script.js.</li>
+            <li>Abrir index.html en el navegador.</li>
+            <li>Abrir las herramientas de desarrollo con F12 o clic derecho y luego Inspeccionar.</li>
+            <li>Seleccionar la pestaña Consola.</li>
+            <li>Ver los mensajes mostrados con console.log().</li>
+            <li>Si se modifica el código, guardar y recargar la página con F5.</li>
+        </ol>
+        
+    <h3>3) Variables en JavaScript</h3>
+    <p>Una variable es un espacio con nombre en la memoria donde se guarda un dato (número, texto, booleano, etc.) que se puede usar durante la ejecución del programa.</p>
+    <ul>
+        <li>
+            <p><strong>var:</strong> tiene alcance de función, permite reasignar y redeclarar.</p>
+                <pre>var edad = 20;</pre>
+        </li>
+            <li>
+                <p><strong>let:</strong> tiene alcance de bloque, permite reasignar pero no redeclarar.</p>
+                <pre>let nombre = "Ana"; nombre = "Luis";</pre>
+        </li>
+            <li>
+                <p><strong>const:</strong> tiene alcance de bloque y no permite reasignar.</p>
+                <pre>const PI = 3.1416;</pre>
+        </li>
+    </ul>
+  <script src="script.js"></script>
+</body>
+</html>
